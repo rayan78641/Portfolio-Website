@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 67px;
+            background-color: rgb(18, 18, 167);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+
+        }
+
+        nav ul li a {
+            color: white;
+            margin: 0 23px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: yellowgreen;
+            font-size: 1.5rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .Firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 5%;
+            width: 35%;
+            align-items: center;
+        }
+        .main hr{
+    margin: 40px 80px;
+}
+
+        .rightSection {
+
+            width: 35%;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        
+                }
+                .text-gray{
+                    color: gray;
+                }
+
+        #element {
+            color: purple;
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 90vh;
+
+        }
+        .secondSection h1 {
+            font-size: 3rem;
+        }
+        
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+
+        }
+        .secondSection .vertical{
+            margin: 15px 100px;
+            height: 123px;
+            width: 1px;
+            background-color: white;
+            
+
+        }
+    </style> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rayan's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a  href="/">Contact Me</a></li>
+                    <div><h1> www.Rayan'sPortfolio.com|© All righs Reserved</h1>
+</div>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Firstsection">
+            <div class="leftSection">
+                Hi , My name is <span>Rayan </span>
+                <div>iam a Begginner Front end </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="Ryn.png.jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="tex-gray">What i have done so Far</span>
+            <h1>
+            My Qualification
+            </h1>
+            <div class="box">
+            <div class="vertical"> SSLC <h3> Vijaya English High School</h3>    </div>
+            <div class="vertical">PUC <h3>Pragathi Independent PU College</h3></div>
+            <div class="vertical">Degree<h3>Karanataka college of Management </h3></div>
+            <div class="vertical">Future Studies  Not yet decided</div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Developer', '&amp; Fitness Influencer.', 'Religious', 'Introvert','Good Learner'],
+            typeSpeed: 50,
+        });
+    </script>
+    
+</body>
+</html>
